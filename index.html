@@ -6,24 +6,32 @@
 	</head>
 	<body>
 		<form action="AuthorizationPage" method="POST">
-			<table>
+			<table border="1">
 				<tr>
-					<td>First name:</td>
-					<td><input type="text"></td>
+					<td>
+						<table>
+							<tr>
+								<td>First name:</td>
+								<td><input type="text" name="firstName"></td>
+							</tr>
+							<tr>
+								<td>Second name:</td>
+								<td><input type="text" name="secondName"></td>
+							</tr>
+							<tr>
+								<td>email:</td>
+								<td><input type="email" name="email"></td>
+							</tr>
+							<tr>
+								<td>useless checkbox:</td>
+								<td><input type="checkbox" name="checkbox1" value="1"></td>
+							</tr>
+							<tr>
+								<td align="right" colspan="2"><input type="submit" value="Отправить"></td>
+							</tr>
+						</table>
+					</td>
 				</tr>
-				<tr>
-					<td>Second name:</td>
-					<td><input type="text"></td>
-				</tr>
-				<tr>
-					<td>email:</td>
-					<td><input type="email"></td>
-				</tr>
-				<tr>
-					<td>useless checkbox:</td>
-					<td><input type="checkbox"></td>
-				</tr>
-				
 			</table>
 		</form>
 	</body>

@@ -2,3 +2,5 @@
 log/
 #игнор файлов .bmp
 new folder/.bmp
+#игнор файла jar
+servlet-api.jar
